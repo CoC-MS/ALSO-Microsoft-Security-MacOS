@@ -1,6 +1,6 @@
 # 🛡️ ALSO Microsoft Security MacOS Policy Templates
 
-> A collection of Microsoft Security MacOS policy to help organizations accelerate secure deployments and implement Microsoft Security best practices with Zero trust principles.
+> A collection of Microsoft Security MacOS policy to help organizations automate onboarding of Macbook's to Defender, accelerate secure deployments and implement Microsoft Security best practices with Zero trust principles.
 
 **Works with Business Premium and up.**
 
