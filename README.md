@@ -51,7 +51,7 @@ All policy templates follow the naming format below:
 ### Example
 
 ```text
-BP-ALSO-CA001-Admins-AllApps-AllPlatforms-Grant-RequirePhishingResistantMFA
+BP-ALSO-MacOS-AV-EnableNetworkProtection
 ```
 
 ---
@@ -62,12 +62,10 @@ BP-ALSO-CA001-Admins-AllApps-AllPlatforms-Grant-RequirePhishingResistantMFA
 |-----------|-------------|
 | **MinimumLicense** | Minimum Microsoft license required to use the policy |
 | **ALSO** | Company providing the policy template to have a better control |
-| **CA###** | Unique Conditional Access policy number |
-| **Persona** | Target user persona |
-| **Apps** | Applications targeted by the policy |
-| **Platforms** | Platforms targeted by the policy |
-| **AccessControls** | Determines whether access is granted or blocked |
-| **SessionControls** | Controls enforced by the policy |
+| **MacOS** | Operating system |
+| **Category** | Name of category |
+| **Settings** | Short settings description |
+
 
 ---
 
