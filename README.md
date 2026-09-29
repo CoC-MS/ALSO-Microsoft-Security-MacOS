@@ -1,2 +1,159 @@
-# ALSO-Microsoft-Security-MacOS
-Policies for MacOS for Microsoft Intune. 
+# 🛡️ ALSO Microsoft Security MacOS Policy Templates
+
+> A collection of Microsoft Security MacOS policy to help organizations accelerate secure deployments and implement Microsoft Security best practices with Zero trust principles.
+
+**Works with Business Premium and up.**
+
+---
+
+
+> [!IMPORTANT]
+> **⚠️ IMPORTANT: Read this before importing any policies.**  
+
+| Resource | Description |
+|-----------|-------------|
+| 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main?tab=security-ov-file) |
+| 📖 **Policy Descriptions** | [View Conditional Access Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#-conditional-access-policies) |
+| 🚀 **Before Importing** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#before-importing) |
+
+---
+
+
+## 📂 File Structure
+
+All files are organized into categories
+
+```text
+/
+├── MacOS ALSO/
+├── 
+
+```
+
+### License Tag Description
+
+| Tag | Minimum Required License |
+|:---:|--------------------------|
+| **BP** | Microsoft 365 Business Premium or Microsoft Entra ID P1 |
+| **E5** | Microsoft Defender Suite (for Business Premium, Microsoft 365 E3, or Microsoft 365 E5) |
+| **A365** | Agent 365 Standalone license combined with Microsoft Defender Suite for Business Premium, Microsoft 365 E3/E5, or Microsoft 365 E7 |
+
+---
+
+## 📖 Naming Convention
+
+All policy templates follow the naming format below:
+
+```text
+<MinimumLicense>-ALSO-CA###-<Persona>-<Apps>-<Platforms>-<AccessControls>-<SessionControls>
+```
+
+### Example
+
+```text
+BP-ALSO-CA001-Admins-AllApps-AllPlatforms-Grant-RequirePhishingResistantMFA
+```
+
+---
+
+## 🧩 Naming Components
+
+| Component | Description |
+|-----------|-------------|
+| **MinimumLicense** | Minimum Microsoft license required to use the policy |
+| **ALSO** | Company providing the policy template to have a better control |
+| **CA###** | Unique Conditional Access policy number |
+| **Persona** | Target user persona |
+| **Apps** | Applications targeted by the policy |
+| **Platforms** | Platforms targeted by the policy |
+| **AccessControls** | Determines whether access is granted or blocked |
+| **SessionControls** | Controls enforced by the policy |
+
+---
+
+## 👥 Personas
+
+### Global
+
+Policies that apply broadly to all personas or cover scenarios that are not specific to another persona.
+
+### Admins
+
+Non-guest cloud or synchronized identities assigned Microsoft Entra ID or Microsoft 365 administrative roles.
+
+### Internals
+
+Employees with accounts in the tenant who work in standard end-user roles.
+
+### Guests
+
+External users invited to the tenant using Microsoft Entra B2B guest accounts.
+
+### Agents
+
+Agent identities and agent-related resources governed through Conditional Access.
+
+---
+
+
+## Before importing 
+
+> [!IMPORTANT]
+> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING. AND THAT YOU HAVE READ POLICY DESCIRPTION HERE**: https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#-conditional-access-policies
+
+
+1. Verify that your tenant have at least Entra ID P1 license. 
+
+https://entra.microsoft.com/ -> Overview -> License
+
+
+2. Verify that security defaults are OFF. It can be checked here 
+
+
+https://entra.microsoft.com/ -> Properties -> Security defaults
+
+
+3. You have at least Conditional Access Administrator role assigned to your user 
+
+
+## How to import
+
+1. Download Micke M Intune Management Tool from here:  https://github.com/Micke-K/IntuneManagement
+2. Extract folder and Start with start.cmd in the folder (works without local administrator rights on Windows and MacOS)   
+   <img width="635" height="247" alt="image" src="https://github.com/user-attachments/assets/ae7405c2-17cb-43a1-a96e-cd60181a2619" />
+
+3. Command window and UI will open
+4. Press on icon in upper right corner to sign in
+   <img width="1311" height="965" alt="image" src="https://github.com/user-attachments/assets/2e835f79-5e07-4c7d-bd7c-5bd4976fde50" />
+
+5. You may need a Global Administrator to consent to required API permissions first time if have not used these tool before. This can be done after sign-in by pressing same icon in upper right corner once more and press "Request Consent". Command Graph Command Line Tools application will be registered in Entra. Feel free to remove it after import or remove at least admin consent.
+
+   <img width="294" height="145" alt="image" src="https://github.com/user-attachments/assets/675ebdc9-dc87-4633-bfa5-fbb92f7ba53d" />
+
+
+6. After sign in and admin consent navigate to Bulk button in the left upper corner and press Import
+
+   <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
+
+7. Download CA ALSO.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/blob/main/CA%20ALSO.zip, find and extract folder and choose CA ALSO folder.
+   
+9. Choose Conditional Access, Named Locations and Authentication context in menu, remove everything else.
+
+> [!IMPORTANT]
+> **11. On Conditional Access state- SELECT OFF. Very important.**
+ 
+
+12. Uncheck import assignments if you don't want to to import groups, named locations and authentication context. PS: Many policies will fail on import here.
+
+14. Check results on your tenant and if something is missing in CMD window. 
+
+
+## Open issue
+
+Open issue: https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/issues/new/choose
+
+
+
+
+
+
