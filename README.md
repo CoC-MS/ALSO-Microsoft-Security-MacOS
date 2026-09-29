@@ -74,7 +74,7 @@ BP-ALSO-MacOS-AV-EnableNetworkProtection
 > [!IMPORTANT]
 > **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
 
-**Required administrator roles to do these steps""
+**Required administrator roles to do these steps**
 
 Security Administrator and Intune Administrator roles
 
