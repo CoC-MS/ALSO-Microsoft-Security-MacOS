@@ -34,7 +34,7 @@ All files are organized into categories
 
 | Tag | Minimum Required License |
 |:---:|--------------------------|
-| **BP** | Microsoft 365 Business Premium or Microsoft Entra ID P1 |
+| **BP** | Microsoft 365 Business Premium or Intune Plan 1 + Defender for Business |
 | **E5** | Microsoft Defender Suite (for Business Premium, Microsoft 365 E3, or Microsoft 365 E5) |
 | **A365** | Agent 365 Standalone license combined with Microsoft Defender Suite for Business Premium, Microsoft 365 E3/E5, or Microsoft 365 E7 |
 
