@@ -72,8 +72,14 @@ BP-ALSO-MacOS-AV-EnableNetworkProtection
 ## Before importing 
 
 > [!IMPORTANT]
-> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**: 
+> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
 
+**Required administrator roles to do these steps""
+
+Security Administrator and Intune Administrator roles
+
+**Device types supported** 
+   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
 1. **Verify Defender for Business/Endpoint availability**
    - Go to [security.microsoft.com](https://security.microsoft.com)  
