@@ -99,21 +99,36 @@ Agent identities and agent-related resources governed through Conditional Access
 ## Before importing 
 
 > [!IMPORTANT]
-> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING. AND THAT YOU HAVE READ POLICY DESCIRPTION HERE**: https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#-conditional-access-policies
+> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**: 
 
 
-1. Verify that your tenant have at least Entra ID P1 license. 
-
-https://entra.microsoft.com/ -> Overview -> License
-
-
-2. Verify that security defaults are OFF. It can be checked here 
-
-
-https://entra.microsoft.com/ -> Properties -> Security defaults
+1. **Verify Defender for Business/Endpoint availability**
+   - Go to [security.microsoft.com](https://security.microsoft.com)  
+   - Navigate to **Assets → Devices** and ensure your Defender for Business / Defender for Endpoint instance is set up in the tenant.
+  
+<img width="1435" height="660" alt="image" src="https://github.com/user-attachments/assets/d4cd25aa-b369-4046-9fec-7af049784305" />
 
 
-3. You have at least Conditional Access Administrator role assigned to your user 
+2. **Enable Intune connection in Defender portal**
+   - Go to **System → Settings → Endpoints**  
+   - Ensure that the **Microsoft Intune connection** is turned **ON**.
+  
+<img width="1846" height="996" alt="image" src="https://github.com/user-attachments/assets/020b15de-161a-4662-b787-e7a5ea2174f2" />
+
+
+3. **Confirm Defender connection in Intune admin center**
+   - Go to [intune.microsoft.com](https://intune.microsoft.com)  
+   - Navigate to **Endpoint Security → Microsoft Defender for Endpoint**  
+   - Ensure the **Connection status** is **Enabled**.
+  
+<img width="1030" height="353" alt="image" src="https://github.com/user-attachments/assets/4622ac18-83ec-47cf-9e15-92c883d00981" />
+
+
+4. **Set up Apple MDM Push Certificate**
+   - In the Intune admin center, go to **Devices → macOS → Enrollment**  
+   - Ensure the **Apple MDM Push Certificate** is active.
+  
+<img width="1529" height="695" alt="image" src="https://github.com/user-attachments/assets/e48aa0c6-5b64-4157-a8df-a6ac80db084f" /> 
 
 
 ## How to import
