@@ -81,6 +81,16 @@ Security Administrator and Intune Administrator roles
 **Device types supported** 
    - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
+**Supported Defender versions**
+
+Per September 2026:
+
+27 (Golden Gate), 26 (Tahoe), 15 (Sequoia)
+
+Reference: Microsoft Learn
+
+Always double check here as well: https://learn.microsoft.com/nb-no/defender-endpoint/microsoft-defender-endpoint-mac-prerequisites#system-requirements
+
 1. **Verify Defender for Business/Endpoint availability**
    - Go to [security.microsoft.com](https://security.microsoft.com)  
    - Navigate to **Assets → Devices** and ensure your Defender for Business / Defender for Endpoint instance is set up in the tenant.
