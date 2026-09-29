@@ -81,7 +81,7 @@ Security Administrator and Intune Administrator roles
 **Device types supported** 
    - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
-**Supported Defender versions**
+**Supported MacOS versions**
 
 Per September 2026:
 
