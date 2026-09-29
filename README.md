@@ -45,7 +45,7 @@ All files are organized into categories
 All policy templates follow the naming format below:
 
 ```text
-<MinimumLicense>-ALSO-CA###-<Persona>-<Apps>-<Platforms>-<AccessControls>-<SessionControls>
+<MinimumLicense>-ALSO-MacOS-<Category>-<Settings>
 ```
 
 ### Example
