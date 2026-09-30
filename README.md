@@ -18,7 +18,7 @@
 | 📖 **ALSO_MACOS_ALSO_MACOS_COMPLIANCE_POLICIES Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main#whats-included-in-also_macos_compliance_policiescompliancepolicies) |
 | 📖 **ALSO_MACOS_ALSO_MACOS_CA_POLICIES Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_ca_policies) |
 | 🚀 **Before Importing MACOS_MDE_AUTO_ONBOARDING** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding) |
-| 🚀 **Before Using MACOS_MDCA_READY** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#before-using-also_macos_mdca_ready-with-business-premium-or-defender-suite-or-microsoft-365-e5) |
+| 🚀 **Before Using MACOS_MDCA_READY** | [Read Before Using Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#before-using-also_macos_mdca_ready-with-business-premium-or-defender-suite-or-microsoft-365-e5) |
 
 ---
 
