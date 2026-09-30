@@ -126,7 +126,7 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 <img width="1529" height="695" alt="image" src="https://github.com/user-attachments/assets/e48aa0c6-5b64-4157-a8df-a6ac80db084f" /> 
 
 
-## How to import
+## How to import policy templates (ALSO_MACOS_MDE_AUTO_ONBOARDING.zip) to automate onboarding of MacOS to Defender for Business and Endpoint
 
 1. Download Micke M Intune Management Tool from here:  https://github.com/Micke-K/IntuneManagement
 2. Extract folder and Start with start.cmd in the folder (works without local administrator rights on Windows and MacOS)   
@@ -145,7 +145,7 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 
    <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
 
-7. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/blob/main/CA%20ALSO.zip, find and extract folder and choose CA ALSO folder.
+7. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/ALSO_MACOS_MDE_AUTO_ONBOARDING.zip, find and extract folder and choose ALSO_MACOS_MDE_AUTO_ONBOARDING folder.
    
 9. Choose DeviceConfiguration, Applications, SettingsCatalog in menu, remove everything else.
 
@@ -160,9 +160,7 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 
 ## Open issue
 
-Open issue: https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/issues/new/choose
-
-
+Open issue: 
 
 
 
