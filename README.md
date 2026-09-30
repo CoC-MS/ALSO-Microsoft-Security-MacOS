@@ -161,21 +161,40 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
    <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
 
 7. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/ALSO_MACOS_MDE_AUTO_ONBOARDING.zip, find and extract folder and choose ALSO_MACOS_MDE_AUTO_ONBOARDING folder.
+8. Choose Bulk-> Import and find extracted folder
+   <img width="391" height="411" alt="image" src="https://github.com/user-attachments/assets/e03b2025-83fd-45c0-9122-25f29fbb3e69" />
+10. Check "Add Object name to path" and Press Import
+
+   <img width="2256" height="861" alt="image" src="https://github.com/user-attachments/assets/ec182c21-9982-4f57-ae03-07022f66fbff" />
+
    
-9. Choose DeviceConfiguration, Applications, SettingsCatalog in menu, remove everything else.
 
-> [!IMPORTANT]
-> **11. On Conditional Access state- SELECT OFF. Very important.**
- 
+ ## After import 
 
-12. Uncheck import assignments if you don't want to to import groups, named locations and authentication context. PS: Many policies will fail on import here.
+1. - Download your macOS onboarding package from the Defender portal. Follow the instructions in the policy description.
+   - Replace the `.xml` file inside the policy **ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Auto Onboarding - D** with the downloaded one.
 
-14. Check results on your tenant and if something is missing in CMD window. 
+<img width="1532" height="950" alt="image" src="https://github.com/user-attachments/assets/3826eb7f-522a-4eb3-a212-afc183060ecb" />
 
+<img width="1109" height="1233" alt="image" src="https://github.com/user-attachments/assets/8d35575d-4d76-4bbb-a54f-2810d7e1b177" />
 
-## Open issue
+2. *Assign policies in Devices -> MacOS -> Configuration
+   - Assign all policies to your security **Device Group for MacOS devices** or **All Devices**
+     
+<img width="1981" height="668" alt="image" src="https://github.com/user-attachments/assets/012f6112-a815-446e-934f-f12e8033dc59" />
 
-Open issue: 
+<img width="772" height="854" alt="image" src="https://github.com/user-attachments/assets/d96aadf0-816b-4d65-9e80-fc1c5d3e588e" />
+     
+3. Set Defender MacOS app as required in Apps-> MacOs
+    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Device Group** / **All Devices**.
+
+<img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
+  
+
+4. Test onboarding by enrolling your test device(s) to Intune
+    - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
+    - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
+
 
 
 
