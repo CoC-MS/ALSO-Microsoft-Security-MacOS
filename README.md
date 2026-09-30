@@ -25,9 +25,10 @@ All files are organized into categories
 
 ```text
 /
-├── MacOS ALSO/
-├── 
-
+├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
+├── Applications
+├── DeviceConfiguration
+├── SettingsCatalog/
 ```
 
 ### License Tag Description
@@ -146,7 +147,7 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 
 7. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/blob/main/CA%20ALSO.zip, find and extract folder and choose CA ALSO folder.
    
-9. Choose DeviceConfiguration, Applications in menu, remove everything else.
+9. Choose DeviceConfiguration, Applications, SettingsCatalog in menu, remove everything else.
 
 > [!IMPORTANT]
 > **11. On Conditional Access state- SELECT OFF. Very important.**
