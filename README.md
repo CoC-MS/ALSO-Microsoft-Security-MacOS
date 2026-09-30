@@ -14,7 +14,7 @@
 |-----------|-------------|
 | 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file) |
 | 📖 **ALSO_MACOS_MDE_AUTO_ONBOARDING Description** | [View ALSO_MACOS_MDE_AUTO_ONBOARDING description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_mde_auto_onboarding-to-automate-onboarding-of-macos-to-defender-for-business-and-endpoint) |
-| 📖 **ALSO_MACOS_MDCA_READY Description** | [View ALSO_MACOS_MDCA_Ready description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_mdca_readysettingscatalog) |
+| 📖 **ALSO_MACOS_MDCA_READY Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_mdca_readysettingscatalog) |
 | 🚀 **Before Importing** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding-to-automate-onboarding-of-macos-to-defender-for-business-and-endpoint) |
 
 ---
