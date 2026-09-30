@@ -78,9 +78,11 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 
 ## What's included in (ALSO_MACOS_MDE_AUTO_ONBOARDING.zip) to automate onboarding of MacOS to Defender for Business and Endpoint
 
-1 Application - Defender for Endpoint MacOS
-2 SettingsCatalog policy templates - AV Config and MDE System Extension settings 
-6 DeviceConfiguration policy templates - MDE Accessibility settings, MDE Autoonboarding settings, MDE Background services settings, MDE Full Disk Access settings, MDE Notification settings, MDE other settings.
+| Component | Description |
+|-----------|-------------|
+| Application | 1 Application: Microsoft Defender for Endpoint for MacOS |
+| Settings Catalog Policies | 2 policy templates: AV Configuration and MDE System Extension Settings |
+| Device Configuration Policies | 6 policy templates: MDE Accessibility Settings, MDE Auto-Onboarding Settings, MDE Background Services Settings, MDE Full Disk Access Settings, MDE Notification Settings, and MDE Other Settings |
 
 > [!IMPORTANT]
 > All of these policy templates and the application are required to enable seamless automatic onboarding of macOS devices to Microsoft Defender for Endpoint when they are enrolled in Intune.
