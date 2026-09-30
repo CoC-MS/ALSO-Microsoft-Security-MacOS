@@ -45,7 +45,7 @@ All files are organized into categories
 All policy templates follow the naming format below:
 
 ```text
-<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
+<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
 ```
 
 ### Example
@@ -64,6 +64,7 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 | **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
 | **MinimumLicense** | Minimum Microsoft license required to use the policy |
 | **BaselineLevel** | Baseline level of policy, Basic, Advanced |
+| **Version** | Policy version, v1.0, v1.1 etc|
 | **MacOS** | Operating system |
 | **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
 | **SubCategory** | Name of sub category, MDE, AV, Disk etc|
