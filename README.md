@@ -178,18 +178,19 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 
 <img width="1109" height="1233" alt="image" src="https://github.com/user-attachments/assets/8d35575d-4d76-4bbb-a54f-2810d7e1b177" />
 
-2. *Assign policies in Devices -> MacOS -> Configuration
+2. -Assign policies in Devices -> MacOS -> Configuration
    - Assign all policies to your security **Device Group for MacOS devices** or **All Devices**
      
-<img width="1981" height="668" alt="image" src="https://github.com/user-attachments/assets/012f6112-a815-446e-934f-f12e8033dc59" />
+<img width="1118" height="1177" alt="image" src="https://github.com/user-attachments/assets/12a4476a-f66d-4d32-a000-3780d310494a" />
 
-<img width="772" height="854" alt="image" src="https://github.com/user-attachments/assets/d96aadf0-816b-4d65-9e80-fc1c5d3e588e" />
+<img width="1152" height="292" alt="image" src="https://github.com/user-attachments/assets/6378831d-c626-4eb5-9ecd-8cd163cdf763" />
+
      
-3. Set Defender MacOS app as required in Apps-> MacOs
+3.  Set Defender MacOS app as required in Apps-> MacOs
     - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Device Group** / **All Devices**.
 
 <img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
-  
+
 
 4. Test onboarding by enrolling your test device(s) to Intune
     - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)  
