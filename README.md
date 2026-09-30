@@ -15,10 +15,11 @@
 | 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file) |
 | 📖 **ALSO_MACOS_MDE_AUTO_ONBOARDING Description** | [View ALSO_MACOS_MDE_AUTO_ONBOARDING description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding) |
 | 📖 **ALSO_MACOS_MDCA_READY Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_mdca_readysettingscatalog) |
+| 📖 **ALSO_MACOS_ALSO_MACOS_COMPLIANCE_POLICIES Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_mdca_readysettingscatalog) |
+| 📖 **ALSO_MACOS_ALSO_MACOS_CA_POLICIES Description** | [View ALSO_MACOS_MDCA_READY description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#whats-included-in-also_macos_mdca_readysettingscatalog) |
 | 🚀 **Before Importing** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding) |
 
 ---
-
 
 ## 📂 File Structure
 
@@ -94,7 +95,7 @@ This folder contains:
 > All of these policy templates and the application are required to enable seamless automatic onboarding of macOS devices to Microsoft Defender for Endpoint when they are enrolled in Intune.
 
 
-## What's included in ALSO_MACOS_MDCA_READY/SettingsCatalog) 
+## What's included in ALSO_MACOS_MDCA_READY/SettingsCatalog
 
 This policy is designed to help organizations get started with Microsoft Defender for Cloud Apps cloud app blocking and monitoring. It includes the required Real-Time Protection, Network Protection, and Cloud Protection settings, reducing the need for manual configuration.
 
@@ -108,6 +109,32 @@ This folder contains:
 > [!IMPORTANT]
 > ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
 
+
+## What's included in ALSO_MACOS_COMPLIANCE_POLICIES/CompliancePolicies
+
+This policy set is designed to establish a baseline level of device compliance for use with Conditional Access policies that require compliant devices. Ready-to-use Conditional Access policy templates are available in the next section to simplify deployment.
+
+This approach aligns with Microsoft's Zero Trust principles by helping ensure that only compliant and trusted devices can access organizational resources.
+
+This folder contains:
+
+
+| Component | Description |
+|-----------|-------------|
+| Compliance Policies | 4 policy template:  Disk Encryption, Firewall, Password and OS requirements, App download sources, System integrity etc. |
+
+
+## What's included in ALSO_MACOS_CA_POLICIES
+
+Includes Conditional Access policiy templates for internal users and administrators that require devices to be compliant in Microsoft Intune and enrolled when signing in from macOS devices.
+
+This approach aligns with Microsoft's Zero Trust principles by ensuring that access is granted only from trusted, compliant, and managed devices.
+
+| Component | Description |
+|-----------|-------------|
+| Compliance Policies | 3 policy template:  Requiring compliant device check. |
+| Security groups | 3 security groups:  For exclusions in Conditional Access policies. |
+| MigrationTable.json | For import job |
 
 ---
 
