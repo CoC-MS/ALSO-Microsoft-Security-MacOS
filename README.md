@@ -76,7 +76,7 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 
 ---
 
-## What's included in (ALSO_MACOS_MDE_AUTO_ONBOARDING.zip) to automate onboarding of MacOS to Defender for Business and Endpoint
+## What's included in (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
 
 | Component | Description |
 |-----------|-------------|
@@ -90,7 +90,7 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 
 ---
 
-## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING.zip) to automate onboarding of MacOS to Defender for Business and Endpoint
+## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
 
 > [!IMPORTANT]
 > **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
@@ -141,7 +141,7 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 <img width="1529" height="695" alt="image" src="https://github.com/user-attachments/assets/e48aa0c6-5b64-4157-a8df-a6ac80db084f" /> 
 
 
-## How to import policy templates (ALSO_MACOS_MDE_AUTO_ONBOARDING.zip) to automate onboarding of MacOS to Defender for Business and Endpoint
+## How to import policy templates (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
 
 1. Download Micke M Intune Management Tool from here:  https://github.com/Micke-K/IntuneManagement
 2. Extract folder and Start with start.cmd in the folder (works without local administrator rights on Windows and MacOS)   
