@@ -144,9 +144,9 @@ Always double check here as well: https://learn.microsoft.com/nb-no/defender-end
 
    <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
 
-7. Download CA ALSO.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/blob/main/CA%20ALSO.zip, find and extract folder and choose CA ALSO folder.
+7. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/blob/main/CA%20ALSO.zip, find and extract folder and choose CA ALSO folder.
    
-9. Choose Conditional Access, Named Locations and Authentication context in menu, remove everything else.
+9. Choose DeviceConfiguration, Applications in menu, remove everything else.
 
 > [!IMPORTANT]
 > **11. On Conditional Access state- SELECT OFF. Very important.**
