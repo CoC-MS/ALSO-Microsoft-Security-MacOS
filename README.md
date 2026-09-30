@@ -122,6 +122,7 @@ This folder contains:
 
 > [!IMPORTANT]
 > ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
+> This policy will also work with Microsoft 365 Business Premium, but it uses Custom Indicators in Microsoft Defender rather than the cloud app catalog available through Microsoft Defender for Cloud Apps.
 
 
 ## What's included in ALSO_MACOS_COMPLIANCE_POLICIES/CompliancePolicies
