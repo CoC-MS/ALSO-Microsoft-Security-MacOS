@@ -25,10 +25,11 @@ All files are organized into categories
 
 ```text
 /
-├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
+├── ALSO_MACOS_MDE_AUTO_ONBOARDING.zip/
 ├── Applications
 ├── DeviceConfiguration
-├── SettingsCatalog/
+├── SettingsCatalog
+├── Migrationtable.json
 ```
 
 ### License Tag Description
