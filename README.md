@@ -8,7 +8,7 @@
 
 
 > [!IMPORTANT]
-> **⚠️ IMPORTANT: Read this before importing any policies.**  
+> **⚠️ IMPORTANT: Read this before importing and using any policies.**  
 
 | Resource | Description |
 |-----------|-------------|
