@@ -28,10 +28,24 @@ All files are organized into categories
 ```text
 /
 ├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
-├── Applications
-├── DeviceConfiguration
-├── SettingsCatalog
-├── Migrationtable.json
+├── Applications 1 application
+├── DeviceConfiguration 8 Device Configuration policy templates
+├── SettingsCatalog 1 SettingsCatalog policy template
+
+├── ALSO_MACOS_MDCA_READY/SettingsCatalog
+├── 1 policy template
+
+├── ALSO_MACOS_CIMPLIANCE_POLICIES/CompliancePolicies
+├── 4 policy templates
+
+├── ALSO_MACOS_CA_POLICIES/
+├── Conditional Access 3 policy templates
+├── Groups 5 group templates
+├── MigrationTable.json
+
+
+
+
 ```
 
 ### License Tag Description
