@@ -25,7 +25,7 @@ All files are organized into categories
 
 ```text
 /
-├── ALSO_MACOS_MDE_AUTO_ONBOARDING.zip/
+├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
 ├── Applications
 ├── DeviceConfiguration
 ├── SettingsCatalog
