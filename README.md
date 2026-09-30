@@ -13,7 +13,8 @@
 | Resource | Description |
 |-----------|-------------|
 | 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file) |
-| 📖 **Policy Descriptions** | [View MacOS Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#-conditional-access-policies) |
+| 📖 **ALSO_MACOS_MDE_AUTO_ONBOARDING Description** | [View ALSO_MACOS_MDE_AUTO_ONBOARDING description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_mde_auto_onboarding-to-automate-onboarding-of-macos-to-defender-for-business-and-endpoint) |
+| 📖 **ALSO_MACOS_MDCA_READY Description** | [View ALSO_MACOS_MDCA_Ready description](https://github.com/CoC-MS/ALSO-Microsoft-Security-Conditional-Access/tree/main#-conditional-access-policies) |
 | 🚀 **Before Importing** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding-to-automate-onboarding-of-macos-to-defender-for-business-and-endpoint) |
 
 ---
@@ -76,7 +77,12 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 
 ---
 
-## What's included in (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
+## What's included in ALSO_MACOS_MDE_AUTO_ONBOARDING 
+
+This policy set is designed to automate the onboarding of macOS devices to Microsoft Defender for Business and Microsoft Defender for Endpoint for both personally owned and corporate-owned devices.
+
+This folder contains:
+
 
 | Component | Description |
 |-----------|-------------|
@@ -88,9 +94,24 @@ ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Sy
 > All of these policy templates and the application are required to enable seamless automatic onboarding of macOS devices to Microsoft Defender for Endpoint when they are enrolled in Intune.
 
 
+## What's included in ALSO_MACOS_MDCA_READY/SettingsCatalog) 
+
+This policy is designed to help organizations get started with Microsoft Defender for Cloud Apps cloud app blocking and monitoring. It includes the required Real-Time Protection, Network Protection, and Cloud Protection settings, reducing the need for manual configuration.
+
+This folder contains:
+
+
+| Component | Description |
+|-----------|-------------|
+| Settings Catalog Policies | 1 policy template:  AV Configuration |
+
+> [!IMPORTANT]
+> ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
+
+
 ---
 
-## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
+## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING) 
 
 > [!IMPORTANT]
 > **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
