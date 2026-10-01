@@ -350,6 +350,6 @@ Reference: Microsoft Learn
 
 
  ## After importing all other packages
- 1. Same as above on step 2, you need to check configuration if it fits your needs and assign to device group(s) or All Devices. 
+ 1. As with Step 2 above, review the configuration to ensure it meets your requirements, then assign the policies to the appropriate device group(s) or to All Devices. 
 
 
