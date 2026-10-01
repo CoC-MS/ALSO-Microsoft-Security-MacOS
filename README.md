@@ -315,7 +315,7 @@ Reference: Microsoft Learn
 <img width="2306" height="1303" alt="image" src="https://github.com/user-attachments/assets/5151ba3e-f0a3-42d4-ad5b-a595bcc5a6f4" />
 
 
-## How to import policy templates (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
+## How to import ALSO_MACOS_MDE_AUTO_ONBOARDING AND OTHER POLICY TEMPLATES?
 
 1. Download Micke M Intune Management Tool from here:  https://github.com/Micke-K/IntuneManagement
 2. Extract folder and Start with start.cmd in the folder (works without local administrator rights on Windows and MacOS)
@@ -336,8 +336,8 @@ Reference: Microsoft Learn
 
    <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
 
-8. Download ALSO_MACOS_MDE_AUTO_ONBOARDING.zip from this repo https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/ALSO_MACOS_MDE_AUTO_ONBOARDING.zip, find and extract folder and choose ALSO_MACOS_MDE_AUTO_ONBOARDING folder.
-9. Choose Bulk-> Import and find extracted folder
+8. Download hole project and unzip
+9. Choose Bulk-> Import and find right folder
    
    <img width="391" height="411" alt="image" src="https://github.com/user-attachments/assets/e03b2025-83fd-45c0-9122-25f29fbb3e69" />
    
