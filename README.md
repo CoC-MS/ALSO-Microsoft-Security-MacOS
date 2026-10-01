@@ -377,6 +377,11 @@ Reference: Microsoft Learn
 
 
  ## After importing all other packages
- 1. As with Step 2 above, review the configuration to ensure it meets your requirements, then assign the policies to the appropriate device group(s) or to All Devices. 
+ 1. As with Step 2 above, review the configuration to ensure it meets your requirements, then assign the policies to the appropriate device group(s) or to All Devices.
+
+
+## Issues?
+
+Open issue here: https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/issues 
 
 
