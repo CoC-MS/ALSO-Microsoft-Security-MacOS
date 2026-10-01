@@ -169,7 +169,7 @@ Includes policies for FileVault, Gatekeeper, software updates, account and sign-
 
 | Component | Description |
 |-----------|-------------|
-| SettingsCatalog | 6 policy template:  Requiring compliant device check. |
+| SettingsCatalog | 6 policy template |
 
 ## What's included in ALSO_MACOS_EDGE_POLICIES
 
@@ -177,7 +177,7 @@ Includes policies for password management, profile and synchronization settings,
 
 | Component | Description |
 |-----------|-------------|
-| SettingsCatalog | 5 policy template:  Requiring compliant device check. |
+| SettingsCatalog | 5 policy template |
 
 ## What's included in ALSO_MACOS_OFFICE365_POLICIES
 
@@ -185,7 +185,16 @@ Includes policies for Microsoft 365 Apps, including automatic sign-in and activa
 
 | Component | Description |
 |-----------|-------------|
-| SettingsCatalog | 4 policy template:  Requiring compliant device check. |
+| SettingsCatalog | 4 policy template |
+
+
+## What's included in ALSO_MACOS_MDE_AUTO_OFFBOARDING
+
+Includes a policy and sample XML file for automating the offboarding of MacBook devices from Defender for Business and Defender for Endpoint. Please review the documentation before use.
+
+| Component | Description |
+|-----------|-------------|
+| DeviceConfiguration | 1 policy template with sammple xml file |
 
 ---
 
@@ -287,7 +296,19 @@ Reference: Microsoft Learn
 
 <img width="1607" height="1224" alt="image" src="https://github.com/user-attachments/assets/f34133fb-1356-4b2a-9133-ac2f693271f6" />
 
-4. You can now block and monitor apps for Cloud Apps -> Cloud Apps catalog section after your policy have been pushed out to your Mac devices. 
+4. You can now block and monitor apps for Cloud Apps -> Cloud Apps catalog section after your policy have been pushed out to your Mac devices.
+
+
+## Before using ALSO_MACOS_MDE_AUTO_OFFBOARDING
+
+1. Sign in to security.microsoft.com with Security Administrator role
+2. Navigate to Settings-> Endpoint -> Offboarding
+3. Choose MacOS -> MDM
+4. Download offboarding xml file and upload it to your offboarding policy in Intune
+5. Assign to device or device group 
+
+<img width="2306" height="1303" alt="image" src="https://github.com/user-attachments/assets/5151ba3e-f0a3-42d4-ad5b-a595bcc5a6f4" />
+
 
 ## How to import policy templates (ALSO_MACOS_MDE_AUTO_ONBOARDING) to automate onboarding of MacOS to Defender for Business and Endpoint
 
