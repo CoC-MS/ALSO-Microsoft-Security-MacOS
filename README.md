@@ -34,7 +34,7 @@ All files are organized into categories
 ├── SettingsCatalog 1 SettingsCatalog policy template
 
 ├── ALSO_MACOS_MDCA_READY/SettingsCatalog
-├── 1 policy template
+1 policy template
 
 ├── ALSO_MACOS_CIMPLIANCE_POLICIES/CompliancePolicies
 ├── 4 policy templates
@@ -44,6 +44,14 @@ All files are organized into categories
 ├── Groups 5 group templates
 ├── MigrationTable.json
 
+├── ALSO_MACOS_DEVICE_CONFIG_POLICIES/SettingsCatalog
+6 policy templates
+
+├── ALSO_MACOS_EDGE_POLICIES/SettingsCatalog
+5 policy templates
+
+├──ALSO_MACOS_OFFICE365_POLICIES/SettingsCatalog
+4 policy templates 
 
 
 
