@@ -337,6 +337,9 @@ Reference: Microsoft Learn
    <img width="273" height="202" alt="image" src="https://github.com/user-attachments/assets/9e8b32ce-93fe-4ef8-9c19-325d138add8c" />
 
 8. Download hole project and unzip
+
+<img width="401" height="373" alt="image" src="https://github.com/user-attachments/assets/99f1e353-44f6-4bd5-85d7-0c2af71925f3" />
+
 9. Choose Bulk-> Import and find right folder
    
    <img width="391" height="411" alt="image" src="https://github.com/user-attachments/assets/e03b2025-83fd-45c0-9122-25f29fbb3e69" />
