@@ -32,7 +32,8 @@
 All files are organized into categories
 
 ```text
-/
+/ALSO-Microsoft-Security-MacOS
+
 ├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
 ├── Applications 1 application
 ├── DeviceConfiguration 8 Device Configuration policy templates
