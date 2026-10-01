@@ -160,6 +160,30 @@ This approach aligns with Microsoft's Zero Trust principles by ensuring that acc
 | Security groups | 3 security groups:  For exclusions in Conditional Access policies. |
 | MigrationTable.json | For import job |
 
+## What's included in ALSO_MACOS_DEVICECONFIG_POLICIES
+
+Includes policies for FileVault, Gatekeeper, software updates, account and sign-in security, and general device restrictions, providing a secure baseline configuration for MacBooks.
+
+| Component | Description |
+|-----------|-------------|
+| SettingsCatalog | 6 policy template:  Requiring compliant device check. |
+
+## What's included in ALSO_MACOS_EDGE_POLICIES
+
+Includes policies for password management, profile and synchronization settings, browser updates, extension controls, and security hardening, providing a baseline security configuration for Microsoft Edge on MacBooks.
+
+| Component | Description |
+|-----------|-------------|
+| SettingsCatalog | 5 policy template:  Requiring compliant device check. |
+
+## What's included in ALSO_MACOS_OFFICE365_POLICIES
+
+Includes policies for Microsoft 365 Apps, including automatic sign-in and activation, OneDrive backup and folder synchronization, update policies, and access controls to provide baseline security and an optimized end-user experience.
+
+| Component | Description |
+|-----------|-------------|
+| SettingsCatalog | 4 policy template:  Requiring compliant device check. |
+
 ---
 
 ## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING) 
@@ -294,7 +318,7 @@ Reference: Microsoft Learn
 
    
 
- ## After import 
+ ## After importing ALSO_MACOS_MDE_AUTO_ONBOARDING 
 
 1. - Download your macOS onboarding package from the Defender portal. Follow the instructions in the policy description.
    - Replace the `.xml` file inside the policy **ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Auto Onboarding - D** with the downloaded one.
@@ -322,6 +346,7 @@ Reference: Microsoft Learn
     - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
 
 
-
+ ## After importing all other packages
+ 1. Same as above on step 2, you need to check configuration if it fits your needs and assign to device group(s) or All Devices. 
 
 
