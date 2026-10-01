@@ -20,7 +20,9 @@
 | 📖 **ALSO_MACOS_DEVICECONFIG_POLICIES Description** | [View ALSO_MACOS_DEVICECONFIG_POLICIES description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_deviceconfig_policies) |
 | 📖 **ALSO_MACOS_OFFICE365_POLICIES Description** | [View ALSO_MACOS_OFFICE365_POLICIES description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_office365_policies) |
 | 📖 **ALSO_MACOS_EDGE_POLICIES Description** | [View ALSO_MACOS_EDGE_POLICIES description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_edge_policies) |
+| 📖 **ALSO_MACOS_MDE_AUTO_OFFBOARDING Description** | [View ALSO_MACOS_MDE_AUTO_OFFBOARDING description](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#whats-included-in-also_macos_mde_auto_offboarding) |
 | 🚀 **Before Importing MACOS_MDE_AUTO_ONBOARDING** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=readme-ov-file#before-importing-also_macos_mde_auto_onboarding) |
+| 🚀 **Before Importing MACOS_MDE_AUTO_OFFBOARDING** | [Read Before Importing Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS#before-using-also_macos_mde_auto_offboarding) |
 | 🚀 **Before Using MACOS_MDCA_READY** | [Read Before Using Policies](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/blob/main/README.md#before-using-also_macos_mdca_ready-with-business-premium-or-defender-suite-or-microsoft-365-e5) |
 
 ---
@@ -54,7 +56,10 @@ All files are organized into categories
 5 policy templates
 
 ├──ALSO_MACOS_OFFICE365_POLICIES/SettingsCatalog
-4 policy templates 
+4 policy templates
+
+├──ALSO_MACOS_MDE_AUTO_OFFBOARDING/DeviceConfiguration
+1 policy template
 
 
 
