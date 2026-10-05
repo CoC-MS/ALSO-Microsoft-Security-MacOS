@@ -168,6 +168,9 @@ This approach aligns with Microsoft's Zero Trust principles by ensuring that acc
 | Security groups | 3 security groups:  For exclusions in Conditional Access policies. |
 | MigrationTable.json | For import job |
 
+> [!IMPORTANT]
+> **Always import Conditional Access policies in OFF mode**:
+
 ## What's included in ALSO_MACOS_DEVICECONFIG_POLICIES
 
 Includes policies for FileVault, Gatekeeper, software updates, account and sign-in security, and general device restrictions, providing a secure baseline configuration for MacBooks.
@@ -316,6 +319,11 @@ Reference: Microsoft Learn
 
 
 ## How to import ALSO_MACOS_MDE_AUTO_ONBOARDING AND OTHER POLICY TEMPLATES?
+
+> [!IMPORTANT]
+> **Always import Conditional Access policies in OFF mode**:
+> Ensure you have Conditional Access Administrator role before importing Conditional Access policies.
+
 
 1. Download Micke M Intune Management Tool from here:  https://github.com/Micke-K/IntuneManagement
 2. Extract folder and Start with start.cmd in the folder (works without local administrator rights on Windows and MacOS)
