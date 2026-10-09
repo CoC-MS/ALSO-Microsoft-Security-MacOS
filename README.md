@@ -10,6 +10,50 @@
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Read this before importing and using any policies.**  
 
+
+## macOS Licensing Guide
+
+### ✅ E5 Folder (Full Experience)
+
+The **E5 folder** is intended for organizations that have access to the complete Microsoft Security stack used by these templates.
+
+| License | Supported |
+|----------|----------|
+| Microsoft 365 E7 | ✅ Full support |
+| Microsoft 365 E5 | ✅ Full support |
+| Microsoft 365 E3 + Defender Suite | ✅ Full support |
+| Business Premium + Defender Suite | ✅ Full support |
+| Microsoft 365 F3 + Defender Suite | ✅ Full support |
+| Microsoft 365 F1 + Defender Suite | ✅ Full support |
+
+---
+
+### ✅ BP Folder (Limited Experience)
+
+The **Business Premium folder** is designed for organizations using Microsoft 365 Business Premium and other licenses with partial feature compatibility.
+
+| License | Supported Features |
+|----------|----------|
+| Microsoft 365 Business Premium | ✅ Full support |
+| Microsoft 365 E3 | ✅ Full support |
+| Microsoft 365 F3 | ⚠️ Supported with limitations |
+| Microsoft 365 F1 | ⚠️ Intune settings only. Defender settings are not supported. |
+
+#### Microsoft 365 F3 Limitations
+
+For Microsoft 365 F3, only the following Microsoft Defender security settings are supported:
+
+- Defender Antivirus
+- Microsoft Defender Firewall
+- Exploit Guard
+- Credential Guard
+
+> **Note:** BitLocker and BitLocker To Go are Windows-only features and are not applicable to macOS.
+
+> **Important:** Microsoft 365 F1 supports deployment of Intune configuration settings only. Microsoft Defender security policy settings included in this repository are not supported with F1 licensing.
+
+-----
+
 | Resource | Description |
 |-----------|-------------|
 | 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file) |
