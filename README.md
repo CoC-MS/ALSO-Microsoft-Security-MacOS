@@ -48,8 +48,6 @@ For Microsoft 365 F3, only the following Microsoft Defender security settings ar
 - Exploit Guard
 - Credential Guard
 
-> **Note:** BitLocker and BitLocker To Go are Windows-only features and are not applicable to macOS.
-
 > **Important:** Microsoft 365 F1 supports deployment of Intune configuration settings only. Microsoft Defender security policy settings included in this repository are not supported with F1 licensing.
 
 -----
