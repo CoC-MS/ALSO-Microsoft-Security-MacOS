@@ -70,7 +70,7 @@ Each package is standalone and retains the original workload folders and exact e
 | [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | Cumulative: the same 39 exports; no additional E5-only source artifacts currently exist | 39 |
 
 > [!WARNING]
-> Choose **one** package per tenant. Do not combine packages. Review every selected object, setting, assignment, licence requirement, and dependency before import.
+> Choose **one** package per tenant. Do not combine packages. Review every selected object, settings, license requirements, and dependency before import.
 
 ## 🌐 macOS coverage
 
