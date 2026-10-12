@@ -2,8 +2,6 @@
 
 > A collection of Microsoft Security MacOS policy to help organizations automate onboarding/offboarding of Macbook's to/from Defender with Intune, accelerate secure deployments and implement Microsoft Security best practices with Zero trust principles.
 
-**Works with Business Premium and up.**
-
 ---
 
 > [!IMPORTANT]
