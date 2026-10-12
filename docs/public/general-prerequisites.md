@@ -19,15 +19,6 @@ At least Conditional Access Administrator role assigned
 > **Always import Conditional Access policies in OFF mode**:
 > Ensure you have Conditional Access Administrator role before importing Conditional Access policies.
 
-> [!IMPORTANT]
-> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
-
-**Required administrator roles to do these steps**
-
-Security Administrator and Intune Administrator roles
-
-**Device types supported**
-   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
 **Supported MacOS versions**
 
