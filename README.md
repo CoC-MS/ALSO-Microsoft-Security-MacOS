@@ -15,7 +15,7 @@ Choose one standalone package.
 
 Package: [`ALSO_MACOS_E5`](ALSO_MACOS_E5)
 
-The **E5 folder** is intended for organizations that have access Defender for Cloud Apps.
+The **E5 folder** is intended for organizations that have licensing for Defender for Cloud Apps.
 
 | License | Supported |
 |----------|----------|
