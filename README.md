@@ -44,7 +44,7 @@ The **Business Premium folder** is designed for organizations using Microsoft 36
 
 > **Important:** Microsoft 365 F1 supports deployment of Intune configuration settings only. Microsoft Defender security policy settings included in this repository are not supported with F1 licensing.
 
---
+
 
 | Resource | Description |
 | --- | --- |
