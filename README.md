@@ -83,6 +83,7 @@ Each package is standalone and retains the original workload folders and exact e
 | Microsoft Edge | Password management, profiles, updates, extensions, and security settings. |
 | Microsoft 365 apps | Auto sign-in, activation, updates, service access, mapping known-folder, and backup settings. |
 
+
 ## 🚀 Getting started
 
 1. Choose one package using the licensing guide above.
