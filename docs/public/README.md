@@ -5,8 +5,7 @@
 | Page | Purpose |
 | --- | --- |
 | 📖 **[Policy and configuration descriptions](policy-collections.md)** | Review the original authored description of each workload collection. |
-| 🚀 **[General prerequisites](general-prerequisites.md)** | Check licensing, roles, and deployment preparation. |
-| 🍎 **[macOS prerequisites](macos-prerequisites.md)** | Prepare Defender, Intune, and Apple enrollment. |
+| 🚀 **[General prerequisites](general-prerequisites.md)** | Check licensing, roles, Defender, Intune and Apple Push certificate settings. |
 | ☁️ **[Defender for Cloud Apps](defender-cloud-apps.md)** | Review the required starter policy and exact Business Premium limitation. |
 | 🧩 **[Dependencies and special handling](dependencies-and-errors.md)** | Review deployment order, tenant-generated content, Conditional Access, and offboarding. |
 | 📖 **[Policy naming](policy-naming.md)** | Understand license tags and naming components. |
