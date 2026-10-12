@@ -66,8 +66,8 @@ Each package is standalone and retains the original workload folders and exact e
 
 | Package | Classification | JSON files |
 | --- | --- | ---: |
-| [`ALSO_MACOS_BP`](ALSO_MACOS_BP) | 38 BP exports + 1 Defender for Cloud Apps starter export supported with Business Premium only when Custom Indicators are used | 39 |
-| [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | Cumulative: the same 39 exports; no additional E5-only source artifacts currently exist | 39 |
+| [`ALSO_MACOS_BP`](ALSO_MACOS_BP) | 38 BP exports + 1 Defender Custom indicators and web content filtering support | 39 |
+| [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | 38 BP exports + 1 Defender for Cloud Apps starter policy policy | 39 |
 
 > [!WARNING]
 > Choose **one** package per tenant. Do not combine packages. Review every selected object, settings, license requirements, and dependency before import.
