@@ -80,9 +80,9 @@ Each package is standalone and retains the original workload folders and exact e
 | Microsoft Defender for Endpoint | Automatic onboarding application and policies, plus a separate offboarding policy. |
 | Defender for Cloud Apps readiness | One starter AV configuration policy with the Business Premium Custom Indicators limitation described above. |
 | Compliance and Conditional Access | Four compliance policies, three Conditional Access policies, five groups, and `MigrationTable.json`. |
-| Device configuration | Restrictions, updates, SSO, accounts and login, FileVault, firewall, and Gatekeeper settings. |
+| Device configuration | Restrictions, updates, SSO, accounts and login, FileVault and Gatekeeper settings. |
 | Microsoft Edge | Password management, profiles, updates, extensions, and security settings. |
-| Microsoft 365 apps and OneDrive | Sign-in, activation, updates, service access, mapping, known-folder, and backup settings. |
+| Microsoft 365 apps and OneDrive | Auto sign-in, activation, updates, service access, mapping known-folder, and backup settings. |
 
 ## 🚀 Getting started
 
