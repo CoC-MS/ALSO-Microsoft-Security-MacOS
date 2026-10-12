@@ -30,7 +30,7 @@ The **E5 folder** is intended for organizations that have licensing for Defender
 
 Package: [`ALSO_MACOS_BP`](ALSO_MACOS_BP)
 
-The **Business Premium folder** is designed for organizations using Microsoft 365 Business Premium and other licenses with partial feature compatibility.
+The **BP folder** is designed for organizations using Microsoft 365 Business Premium and other licenses with partial feature compatibility.
 
 | License | Supported Features |
 |----------|----------|
