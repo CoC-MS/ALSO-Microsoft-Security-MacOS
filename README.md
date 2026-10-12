@@ -59,7 +59,6 @@ The **Business Premium folder** is designed for organizations using Microsoft 36
 | ☁️ **[Defender for Cloud Apps](docs/public/defender-cloud-apps.md)** | Review the exact Business Premium Custom Indicators limitation and E5 workflow. |
 | 🧩 **[Dependencies and special handling](docs/public/dependencies-and-errors.md)** | Review onboarding, offboarding, Conditional Access, and tenant-specific dependencies. |
 | 📖 **[Policy naming](docs/public/policy-naming.md)** | Understand licence tags and naming components. |
-| 🏷️ **[Short-name exceptions](docs/public/short-name-exceptions.md)** | Review existing naming differences without renaming exports. |
 | 📂 **[File structure](docs/public/file-structure.md)** | Compare the two cumulative packages and workload folders. |
 | 📥 **[How to import](docs/public/how-to-import.md)** | Follow the original illustrated import and post-import guidance. |
 | 🐛 **[Reporting issues](docs/public/reporting-issues.md)** | Open an issue. |
