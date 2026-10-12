@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Read this before importing and using any policies.**
 
-Choose either [`ALSO_MACOS_BP`](../../ALSO_MACOS_BP) or [`ALSO_MACOS_E5`](../../ALSO_MACOS_E5) using the [macOS Licensing Guide](../../README.md#macos-licensing-guide). Review each policy, licence requirement, setting, tenant-specific value, dependency, and assignment before import.
+Choose either [`ALSO_MACOS_BP`](../../ALSO_MACOS_BP) or [`ALSO_MACOS_E5`](../../ALSO_MACOS_E5) using the [macOS Licensing Guide](../../README.md#macos-licensing-guide). Review each policy, licence requirement and settings before import.
 
 **Required administrator roles to do these steps**
 
