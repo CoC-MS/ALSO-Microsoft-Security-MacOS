@@ -1,29 +1,72 @@
-# 📂 Policy collections
+# File structure
 
 [Documentation index](README.md)
 
-This repository contains pre-generated Intune JSON exports organized into workload folders at the repository root. These folders are collections, not cumulative licence packages. The folders do not include a shared deployment tool or a documented package manifest.
+## 📂 File Structure
 
-## 📦 Collections
+The repository exposes exactly two cumulative, standalone packages:
 
-| Folder | Contents |
-| --- | --- |
-| [`ALSO_MACOS_MDE_AUTO_ONBOARDING`](../../ALSO_MACOS_MDE_AUTO_ONBOARDING) | 1 macOS app export, 7 Device Configuration exports, and 1 Settings Catalog export. |
-| [`ALSO_MACOS_MDCA_READY`](../../ALSO_MACOS_MDCA_READY) | 1 Settings Catalog export for Defender Antivirus configuration. |
-| [`ALSO_MACOS_COMPLIANCE_POLICIES`](../../ALSO_MACOS_COMPLIANCE_POLICIES) | 4 compliance policy exports. |
-| [`ALSO_MAC_CA_POLICIES`](../../ALSO_MAC_CA_POLICIES) | 3 Conditional Access exports, 5 group exports, and `MigrationTable.json`. |
-| [`ALSO_MACOS_DEVICE_CONFIG_POLICIES`](../../ALSO_MACOS_DEVICE_CONFIG_POLICIES) | 6 Settings Catalog exports for macOS device configuration. |
-| [`ALSO_MACOS_EDGE_POLICIES`](../../ALSO_MACOS_EDGE_POLICIES) | 5 Settings Catalog exports for Microsoft Edge. |
-| [`ALSO_MACOS_OFFICE365_POLICIES`](../../ALSO_MACOS_OFFICE365_POLICIES) | 4 Settings Catalog exports for Microsoft 365 apps and OneDrive. |
-| [`ALSO_MACOS_MDE_AUTO_OFFBOARDING`](../../ALSO_MACOS_MDE_AUTO_OFFBOARDING) | 1 Device Configuration export for MDE offboarding. |
+```text
+/
+├── ALSO_MACOS_BP/                  39 BP-compatible JSON artifacts
+├── ALSO_MACOS_E5/                  39 cumulative JSON artifacts
+├── docs/public/
+├── LICENSE
+├── README.md
+├── README.preview.md
+└── SECURITY
+```
 
-The counts reflect the JSON files currently checked into each folder. They do not describe licensing, deployment order, or whether all resources should be assigned together. Inspect each export and its description in Intune before use.
+Both packages currently contain the same source membership because the repository has no E5-only source artifacts. The single `BPE5`-tagged `ALSO_MACOS_MDCA_READY` starter policy is included in BP only under the documented Custom Indicators limitation. Any future Defender for Cloud Apps policies beyond that starter policy belong only in E5.
 
-## 🗂️ Export types and dependencies
+| Workload folder in each package | JSON files | Classification |
+| --- | ---: | --- |
+| `ALSO_MACOS_MDE_AUTO_ONBOARDING` | 9 | BP |
+| `ALSO_MACOS_MDCA_READY` | 1 | BP only with Custom Indicators; E5 supports the Cloud App Catalog workflow |
+| `ALSO_MACOS_COMPLIANCE_POLICIES` | 4 | BP |
+| `ALSO_MAC_CA_POLICIES` | 9 | BP |
+| `ALSO_MACOS_DEVICE_CONFIG_POLICIES` | 6 | BP |
+| `ALSO_MACOS_EDGE_POLICIES` | 5 | BP |
+| `ALSO_MACOS_OFFICE365_POLICIES` | 4 | BP |
+| `ALSO_MACOS_MDE_AUTO_OFFBOARDING` | 1 | BP |
+| **Total** | **39** | **38 standard BP + 1 limited starter policy** |
 
-- The onboarding collection includes an application, Device Configuration exports, and a Settings Catalog export. Follow [macOS prerequisites](macos-prerequisites.md) and inspect each resource's description; tenant-specific onboarding content is not a substitute for enabling the required tenant services.
-- The Defender Cloud Apps readiness collection contains one Settings Catalog export. Its description says to deploy the MDE onboarding policies first. Review the applicable Defender service and licensing requirements before use.
-- The Conditional Access folder contains distinct policy, group, and migration-table JSON files. `MigrationTable.json` is import metadata, not a policy. Import Conditional Access policies in **Off** mode and review group references and assignments before enabling them.
-- The offboarding folder contains a JSON export. The repository README says to obtain the macOS MDM offboarding package from the Defender portal for use with that policy; that tenant-specific package is not a separate checked-in file.
+## Historical source layout
 
-There are no Windows package folders, build manifests, or policy deployment scripts in the current macOS repository. For import guidance, see [How to import](how-to-import.md).
+The following original wording is retained to document how the source artifacts were organized before packaging:
+
+All files are organized into categories
+
+```text
+/ALSO-Microsoft-Security-MacOS
+
+├── ALSO_MACOS_MDE_AUTO_ONBOARDING/
+├── Applications 1 application
+├── DeviceConfiguration 8 Device Configuration policy templates
+├── SettingsCatalog 1 SettingsCatalog policy template
+
+├── ALSO_MACOS_MDCA_READY/SettingsCatalog
+1 policy template
+
+├── ALSO_MACOS_CIMPLIANCE_POLICIES/CompliancePolicies
+├── 4 policy templates
+
+├── ALSO_MACOS_CA_POLICIES/
+├── Conditional Access 3 policy templates
+├── Groups 5 group templates
+├── MigrationTable.json
+
+├── ALSO_MACOS_DEVICE_CONFIG_POLICIES/SettingsCatalog
+6 policy templates
+
+├── ALSO_MACOS_EDGE_POLICIES/SettingsCatalog
+5 policy templates
+
+├──ALSO_MACOS_OFFICE365_POLICIES/SettingsCatalog
+4 policy templates
+
+├──ALSO_MACOS_MDE_AUTO_OFFBOARDING/DeviceConfiguration
+1 policy template
+```
+
+See [Policy and configuration descriptions](policy-collections.md) for the original explanations and [How to import](how-to-import.md) for the illustrated workflow.

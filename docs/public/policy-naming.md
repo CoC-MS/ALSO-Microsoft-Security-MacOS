@@ -1,27 +1,41 @@
-# 📖 Policy naming
+# Policy naming
 
 [Documentation index](README.md) | [Short-name exceptions](short-name-exceptions.md)
 
-Many policy display names in this repository follow a pattern similar to:
+## 📖 Naming Convention
+
+### License Tag Description
+
+| Tag | Minimum Required License |
+|:---:|--------------------------|
+| **BP** | Microsoft 365 Business Premium |
+| **E5** | Microsoft Defender Suite (for Business Premium, Microsoft 365 E3, or Microsoft 365 E5) |
+
+All policy templates follow the naming format below:
 
 ```text
-ALSO – <Impact> – <License label> – <Tier> – <Version> – MacOS – <Category> - <Policy purpose> - <Scope>
+<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
 ```
 
-For example, an MDE onboarding resource is named `ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE System Extensions - D`.
+### Example
 
-## Naming components
+```text
+ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE System Extensions - D
+```
 
-| Component | Description | Examples observed |
-| --- | --- | --- |
-| `ALSO` | Template provider | `ALSO` |
-| `Impact` | Impact label in the exported name | `LI`, `MI`, `HI` |
-| `License label` | Label included in some exported names; verify requirements independently | `BP`, `BPE5` |
-| `Tier` | Baseline tier where present | `Basic`, `Adv` |
-| `Version` | Version text where present | `v1.0`, `v.1.0` |
-| `Platform` | Target platform where present | `MacOS`, `MacOs` |
-| `Category` | Intune workload or configuration area | `Device Configuration`, `Compliance`, `Microsoft Edge` |
-| `Policy purpose` | Short description of configured settings | `FileVault`, `MDE System Extensions` |
-| `Scope` | Assignment hint where present | `D` (device), `U` (user) |
+---
 
-Names and filenames are copied from the exports and have not been normalized. Spacing, dash characters, spelling, and capitalization vary. Do not rename imported objects or infer licensing, settings, assignment, or applicability solely from a name. See [Short-name exceptions](short-name-exceptions.md).
+## 🧩 Naming Components
+
+| Component | Description |
+|-----------|-------------|
+| **ALSO** | Company providing the policy template to have a better control |
+| **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
+| **MinimumLicense** | Minimum Microsoft license required to use the policy |
+| **BaselineLevel** | Baseline level of policy, Basic, Advanced |
+| **Version** | Policy version, v1.0, v1.1 etc|
+| **MacOS** | Operating system |
+| **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
+| **SubCategory** | Name of sub category, MDE, AV, Disk etc|
+| **Settings** | Short settings description |
+| **Assignment** | Assignment scope- device (D) or user (U)|

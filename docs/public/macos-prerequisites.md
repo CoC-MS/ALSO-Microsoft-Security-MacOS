@@ -2,34 +2,49 @@
 
 [Documentation index](README.md)
 
-Review the relevant steps for the collection you intend to deploy. Portal names and product requirements can change; verify them in the target tenant and in current Microsoft documentation.
+## Before importing (ALSO_MACOS_MDE_AUTO_ONBOARDING)
 
-## 🛡️ Microsoft Defender for Endpoint onboarding
+> [!IMPORTANT]
+> **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START IMPORTING**:
 
-The repository's onboarding guidance identifies Security Administrator and Intune Administrator roles for its setup steps. Before deploying the onboarding collection:
+**Required administrator roles to do these steps**
 
-1. Confirm that Microsoft Defender for Endpoint or Defender for Business is available and set up in the tenant.
-2. In the Defender portal, confirm the Microsoft Intune connection is enabled.
-3. In the Intune admin center, confirm the Defender connection status is enabled.
-4. Confirm the Apple MDM Push Certificate is active for macOS enrollment.
-5. Check the supported macOS versions and device-enrollment requirements in Microsoft's current documentation.
-6. Obtain the onboarding package for the target tenant from the Defender portal and follow Microsoft's current Intune onboarding instructions. Review the exported MDE Auto Onboarding resource and replace or configure any tenant-specific onboarding content as required; do not import sample values unchanged.
+Security Administrator and Intune Administrator roles
 
-The repository describes the onboarding collection as a coordinated set of the Microsoft Defender for Endpoint app and related configuration exports. Inspect every resource description and assign the app and policies only to the intended pilot devices.
+**Device types supported**
+   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
-## ☁️ Defender for Cloud Apps readiness
+**Supported MacOS versions**
 
-The `ALSO_MACOS_MDCA_READY` collection contains one antivirus configuration export. Its description says to deploy the MDE onboarding policies first and refers to Defender for Cloud Apps blocking and monitoring capabilities.
+Per September 2026:
 
-The repository's existing setup guidance distinguishes Business Premium use of custom network indicators from tenants using Defender for Cloud Apps features. Confirm the exact product entitlement and current Defender portal settings that apply to your tenant before enabling either workflow. The JSON export alone does not provision a Defender for Cloud Apps service or establish licensing.
+27 (Golden Gate), 26 (Tahoe), 15 (Sequoia)
 
-## 🔄 MDE offboarding
+Reference: Microsoft Learn
 
-The repository README directs administrators to sign in to the Defender portal, download the macOS **MDM** offboarding package, and use it with the offboarding policy. The tenant-generated package is not a separate checked-in file. Verify the target device scope and intended effect before assigning an offboarding policy.
+Always double check here as well: https://learn.microsoft.com/nb-no/defender-endpoint/microsoft-defender-endpoint-mac-prerequisites#system-requirements
 
-## 📚 Microsoft sources
+1. **Verify Defender for Business/Endpoint availability**
+   - Go to [security.microsoft.com](https://security.microsoft.com)
+   - Navigate to **Assets → Devices** and ensure your Defender for Business / Defender for Endpoint instance is set up in the tenant.
 
-- [Microsoft Defender for Endpoint on macOS](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-mac) — platform requirements and product guidance.
-- [Microsoft Intune macOS enrollment](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/macos-enroll) — enrollment options and preparation.
-- [Apple MDM Push Certificate](https://learn.microsoft.com/en-us/intune/device-enrollment/apple/create-mdm-push-certificate) — certificate setup and renewal.
-- [Deploy Microsoft Defender for Endpoint on macOS with Intune](https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune) — deployment, onboarding, and verification guidance.
+<img width="1435" height="660" alt="image" src="https://github.com/user-attachments/assets/d4cd25aa-b369-4046-9fec-7af049784305" />
+
+2. **Enable Intune connection in Defender portal**
+   - Go to **System → Settings → Endpoints**
+   - Ensure that the **Microsoft Intune connection** is turned **ON**.
+
+<img width="1846" height="996" alt="image" src="https://github.com/user-attachments/assets/020b15de-161a-4662-b787-e7a5ea2174f2" />
+
+3. **Confirm Defender connection in Intune admin center**
+   - Go to [intune.microsoft.com](https://intune.microsoft.com)
+   - Navigate to **Endpoint Security → Microsoft Defender for Endpoint**
+   - Ensure the **Connection status** is **Enabled**.
+
+<img width="1030" height="353" alt="image" src="https://github.com/user-attachments/assets/4622ac18-83ec-47cf-9e15-92c883d00981" />
+
+4. **Set up Apple MDM Push Certificate**
+   - In the Intune admin center, go to **Devices → macOS → Enrollment**
+   - Ensure the **Apple MDM Push Certificate** is active.
+
+<img width="1529" height="695" alt="image" src="https://github.com/user-attachments/assets/e48aa0c6-5b64-4157-a8df-a6ac80db084f" />

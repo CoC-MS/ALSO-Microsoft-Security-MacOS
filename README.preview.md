@@ -1,5 +1,8 @@
 # 🛡️ ALSO Microsoft Security - macOS
 
+> [!NOTE]
+> This preserved preview predates the cumulative package layout. Use the current [README](README.md) and [documentation index](docs/public/README.md) for package selection.
+
 > Microsoft Intune policy exports and supporting configuration for macOS, including Microsoft Defender for Endpoint onboarding and security settings.
 
 > [!IMPORTANT]
@@ -24,14 +27,14 @@ This repository contains exported JSON resources organized by workload. It is no
 
 | Collection | Included exports |
 | --- | --- |
-| [MDE onboarding](ALSO_MACOS_MDE_AUTO_ONBOARDING) | 1 application, 7 Device Configuration exports, and 1 Settings Catalog export for Microsoft Defender for Endpoint onboarding. |
-| [Defender Cloud Apps readiness](ALSO_MACOS_MDCA_READY) | 1 Settings Catalog export; the repository describes it as dependent on MDE onboarding. |
-| [Compliance](ALSO_MACOS_COMPLIANCE_POLICIES) | 4 macOS compliance policy exports. |
-| [Conditional Access](ALSO_MAC_CA_POLICIES) | 3 Conditional Access exports, 5 group exports, and a `MigrationTable.json`. |
-| [Device configuration](ALSO_MACOS_DEVICE_CONFIG_POLICIES) | 6 Settings Catalog exports, including restrictions, updates, SSO, accounts and login, FileVault, and firewall/Gatekeeper settings. |
-| [Microsoft Edge](ALSO_MACOS_EDGE_POLICIES) | 5 Settings Catalog exports for browser security and management. |
-| [Microsoft 365 apps and OneDrive](ALSO_MACOS_OFFICE365_POLICIES) | 4 Settings Catalog exports for Office sign-in, app updates, and OneDrive. |
-| [MDE offboarding](ALSO_MACOS_MDE_AUTO_OFFBOARDING) | 1 Device Configuration export for offboarding. |
+| [MDE onboarding](ALSO_MACOS_BP/ALSO_MACOS_MDE_AUTO_ONBOARDING) | 1 application, 7 Device Configuration exports, and 1 Settings Catalog export for Microsoft Defender for Endpoint onboarding. |
+| [Defender Cloud Apps readiness](ALSO_MACOS_BP/ALSO_MACOS_MDCA_READY) | 1 Settings Catalog export; the repository describes it as dependent on MDE onboarding. |
+| [Compliance](ALSO_MACOS_BP/ALSO_MACOS_COMPLIANCE_POLICIES) | 4 macOS compliance policy exports. |
+| [Conditional Access](ALSO_MACOS_BP/ALSO_MAC_CA_POLICIES) | 3 Conditional Access exports, 5 group exports, and a `MigrationTable.json`. |
+| [Device configuration](ALSO_MACOS_BP/ALSO_MACOS_DEVICE_CONFIG_POLICIES) | 6 Settings Catalog exports, including restrictions, updates, SSO, accounts and login, FileVault, and firewall/Gatekeeper settings. |
+| [Microsoft Edge](ALSO_MACOS_BP/ALSO_MACOS_EDGE_POLICIES) | 5 Settings Catalog exports for browser security and management. |
+| [Microsoft 365 apps and OneDrive](ALSO_MACOS_BP/ALSO_MACOS_OFFICE365_POLICIES) | 4 Settings Catalog exports for Office sign-in, app updates, and OneDrive. |
+| [MDE offboarding](ALSO_MACOS_BP/ALSO_MACOS_MDE_AUTO_OFFBOARDING) | 1 Device Configuration export for offboarding. |
 
 The counts above describe the JSON files currently in each collection; they are not a recommendation to import or assign everything together. See [Policy collections](docs/public/file-structure.md) for details.
 
