@@ -38,19 +38,6 @@ Per September 2026:
 
 Reference: Microsoft Learn
 
-1. Navigate to security.microsoft.com -> Settings -> Cloud Apps
-
-<img width="1513" height="1165" alt="image" src="https://github.com/user-attachments/assets/fc9c923d-144c-42c1-a900-5b193c56908e" />
-
-**For Microsoft 365 Business Premium** users
-
-1. Navigate to security.microsoft.com -> Settings -> Endpoints -> Optional features (first page)
-2. Toggle on Custom network indicators and Save
-<img width="1599" height="1221" alt="image" src="https://github.com/user-attachments/assets/f472d1d9-41f3-4b33-bf97-2eb77d24f2c5" />
-
-3. You can now add your IP's , URL's etc manually if you wish to block or monitor those websites after your policy have been pushed out to your Mac devices.
-
-**For Defender Suite, Purview Suite or Microsoft 365 E5**  users
 
 1. Navigate to security.microsoft.com -> Settings -> Cloud Apps
 
@@ -65,3 +52,5 @@ Reference: Microsoft Learn
 <img width="1607" height="1224" alt="image" src="https://github.com/user-attachments/assets/f34133fb-1356-4b2a-9133-ac2f693271f6" />
 
 4. You can now block and monitor apps for Cloud Apps -> Cloud Apps catalog section after your policy have been pushed out to your Mac devices.
+
+PS: Keep in mind that it can take up to 24 hours before it's fully active. 
