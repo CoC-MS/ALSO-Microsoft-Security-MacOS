@@ -13,7 +13,7 @@
 > ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
 > This policy will also work with Microsoft 365 Business Premium, but it uses Custom Indicators in Microsoft Defender rather than the cloud app catalog available through Microsoft Defender for Cloud Apps.
 
-See [Defender for Cloud Apps](defender-cloud-apps.md) for the complete original Business Premium and E5 portal guidance. All other Defender for Cloud Apps policies cannot be used with Business Premium and belong only in `ALSO_MACOS_E5`; none are present in the current source artifacts.
+See [Defender for Cloud Apps](defender-cloud-apps.md) for the complete original Business Premium and E5 portal guidance. All other Defender for Cloud Apps policies cannot be used with Business Premium.
 
 ## Conditional Access
 
