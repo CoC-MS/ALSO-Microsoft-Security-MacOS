@@ -36,9 +36,9 @@ The **Business Premium folder** is designed for organizations using Microsoft 36
 
 | License | Supported Features |
 |----------|----------|
-| Microsoft 365 Business Premium | ✅ Full support |
-| Microsoft 365 E3 | ✅ Full support |
-| Microsoft 365 F3 | ⚠️ Supported with limitations |
+| Microsoft 365 Business Premium | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
+| Microsoft 365 E3 | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
+| Microsoft 365 F3 | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
 | Microsoft 365 F1 | ⚠️ Intune settings only. Defender settings are not supported. |
 
 #### Microsoft 365 F3 Limitations
@@ -54,7 +54,6 @@ For Microsoft 365 F3, only the following Microsoft Defender security settings ar
 
 > [!IMPORTANT]
 > ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
-> This policy will also work with Microsoft 365 Business Premium, but it uses Custom Indicators in Microsoft Defender rather than the cloud app catalog available through Microsoft Defender for Cloud Apps.
 
 The statement above applies only to the single starter policy in `ALSO_MACOS_MDCA_READY`. Other Defender for Cloud Apps policies require E5/Defender Suite licensing and must be placed only in `ALSO_MACOS_E5`; no such additional policies exist in the current source artifacts.
 
