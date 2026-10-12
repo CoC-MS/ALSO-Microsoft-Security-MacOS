@@ -20,6 +20,9 @@ At least Conditional Access Administrator role assigned
 > Ensure you have Conditional Access Administrator role before importing Conditional Access policies.
 
 
+**Device types supported**
+   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
+
 **Supported MacOS versions**
 
 Per September 2026:
