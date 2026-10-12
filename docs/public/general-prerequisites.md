@@ -13,6 +13,8 @@ Security Administrator and Intune Administrator roles
 
 For Conditional Access:
 
+At least Conditional Access Administrator role assigned
+
 > [!IMPORTANT]
 > **Always import Conditional Access policies in OFF mode**:
 > Ensure you have Conditional Access Administrator role before importing Conditional Access policies.
