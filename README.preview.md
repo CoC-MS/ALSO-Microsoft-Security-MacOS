@@ -14,7 +14,6 @@
 | 🚀 **[General prerequisites](docs/public/general-prerequisites.md)** | Prepare access, licensing review, and deployment readiness. |
 | 🍎 **[macOS prerequisites](docs/public/macos-prerequisites.md)** | Review macOS enrollment and Defender-specific dependencies. |
 | 📖 **[Policy naming](docs/public/policy-naming.md)** | Understand the naming patterns used by the exports. |
-| 🏷️ **[Short-name exceptions](docs/public/short-name-exceptions.md)** | See where resource names do not follow the common pattern. |
 | 📥 **[How to import](docs/public/how-to-import.md)** | Review the import workflow and special handling for selected exports. |
 | 🐛 **[Reporting issues](docs/public/reporting-issues.md)** | Report problems without exposing tenant information. |
 | 📜 **[License](LICENSE)** | Read the repository license. |

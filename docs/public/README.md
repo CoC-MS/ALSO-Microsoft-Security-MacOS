@@ -10,7 +10,6 @@
 | ☁️ **[Defender for Cloud Apps](defender-cloud-apps.md)** | Review the required starter policy and exact Business Premium limitation. |
 | 🧩 **[Dependencies and special handling](dependencies-and-errors.md)** | Review deployment order, tenant-generated content, Conditional Access, and offboarding. |
 | 📖 **[Policy naming](policy-naming.md)** | Understand license tags and naming components. |
-| 🏷️ **[Short-name exceptions](short-name-exceptions.md)** | Review existing naming differences without changing exports. |
 | 📂 **[File structure](file-structure.md)** | Compare packages and find each workload. |
 | 📥 **[How to import](how-to-import.md)** | Follow the original illustrated import and post-import guidance. |
 | 🐛 **[Reporting issues](reporting-issues.md)** | Open an issue. |
