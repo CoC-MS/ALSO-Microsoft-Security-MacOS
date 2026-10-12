@@ -48,8 +48,7 @@ The **Business Premium folder** is designed for organizations using Microsoft 36
 | --- | --- |
 | 📚 **[Documentation index](docs/public/README.md)** | Browse all deployment documentation. |
 | 📖 **[Policy and configuration descriptions](docs/public/policy-collections.md)** | Review the preserved descriptions of every workload collection. |
-| 🚀 **[General prerequisites](docs/public/general-prerequisites.md)** | Review roles, licensing, and deployment preparation. |
-| 🍎 **[macOS prerequisites](docs/public/macos-prerequisites.md)** | Prepare Defender, Intune, and Apple enrollment. |
+| 🚀 **[General prerequisites](docs/public/general-prerequisites.md)** | Review roles, licensing,  prepare Intune, Defender and Apple Push certificate. |
 | ☁️ **[Defender for Cloud Apps](docs/public/defender-cloud-apps.md)** | Review the exact Business Premium Custom Indicators limitation and E5 workflow. |
 | 🧩 **[Dependencies and special handling](docs/public/dependencies-and-errors.md)** | Review onboarding, offboarding, Conditional Access, and tenant-specific dependencies. |
 | 📖 **[Policy naming](docs/public/policy-naming.md)** | Understand licence tags and naming components. |
