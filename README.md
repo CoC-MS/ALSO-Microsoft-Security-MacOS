@@ -9,7 +9,7 @@
 
 ## macOS Licensing Guide
 
-Choose one standalone package. The packages are cumulative: E5 contains every BP-compatible export plus any E5-only exports. The current repository has no E5-only exports, so both packages contain the same 39 source artifacts.
+Choose one standalone package. 
 
 ### ✅ E5 Folder (Full Experience)
 
