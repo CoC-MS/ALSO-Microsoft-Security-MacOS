@@ -70,7 +70,7 @@ Each package is standalone and retains the original workload folders and exact e
 | [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | 38 BP exports + 1 Defender for Cloud Apps Cloud App readiness policy | 39 |
 
 > [!WARNING]
-> Choose **one** package per tenant. Do not combine packages. Review every selected object, settings, license requirements, and dependency before import.
+> Choose **one** package per tenant. Do not combine packages. Review every selected object, setting, license requirements, and dependency before assigning them.
 
 ## 🌐 macOS coverage
 
