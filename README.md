@@ -87,6 +87,6 @@ Each package is standalone and retains the original workload folders and exact e
 ## 🚀 Getting started
 
 1. Choose one package using the licensing guide above.
-2. Read [General prerequisites](docs/public/general-prerequisites.md), [macOS prerequisites](docs/public/macos-prerequisites.md), [Defender for Cloud Apps](docs/public/defender-cloud-apps.md), and [Dependencies and special handling](docs/public/dependencies-and-errors.md).
+2. Read [General prerequisites](docs/public/general-prerequisites.md), [Defender for Cloud Apps](docs/public/defender-cloud-apps.md), and [Dependencies and special handling](docs/public/dependencies-and-errors.md).
 3. Review the exact workload descriptions in [Policy and configuration descriptions](docs/public/policy-collections.md).
 4. Follow [How to import](docs/public/how-to-import.md). **Always import Conditional Access policies in OFF mode** and use a controlled pilot.
