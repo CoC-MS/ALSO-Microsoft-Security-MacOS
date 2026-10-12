@@ -66,8 +66,8 @@ Each package is standalone and retains the original workload folders and exact e
 
 | Package | Classification | JSON files |
 | --- | --- | ---: |
-| [`ALSO_MACOS_BP`](ALSO_MACOS_BP) | 38 BP exports + 1 Defender Custom indicators and web content filtering support | 39 |
-| [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | 38 BP exports + 1 Defender for Cloud Apps starter policy policy | 39 |
+| [`ALSO_MACOS_BP`](ALSO_MACOS_BP) | 38 BP exports + 1 Defender Custom indicators and web content filtering readiness policy | 39 |
+| [`ALSO_MACOS_E5`](ALSO_MACOS_E5) | 38 BP exports + 1 Defender for Cloud Apps Cloud App readiness policy | 39 |
 
 > [!WARNING]
 > Choose **one** package per tenant. Do not combine packages. Review every selected object, settings, license requirements, and dependency before import.
