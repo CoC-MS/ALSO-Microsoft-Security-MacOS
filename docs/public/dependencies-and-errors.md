@@ -15,14 +15,6 @@
 
 See [Defender for Cloud Apps](defender-cloud-apps.md) for the complete original Business Premium and E5 portal guidance. All other Defender for Cloud Apps policies cannot be used with Business Premium.
 
-## Conditional Access
-
-> [!IMPORTANT]
-> **Always import Conditional Access policies in OFF mode**:
-
-Ensure you have Conditional Access Administrator role before importing Conditional Access policies.
-
-The `ALSO_MAC_CA_POLICIES` workload contains three Conditional Access policy templates, five group templates, and `MigrationTable.json`. Keep these files together in the chosen package and review group references, exclusions, assignments, and migration mappings before enabling any policy.
 
 
 ## Before using ALSO_MACOS_MDE_AUTO_ONBOARDING
