@@ -50,8 +50,8 @@ The **BP folder** is designed for organizations using Microsoft 365 Business Pre
 | 📖 **[Policy and configuration descriptions](docs/public/policy-collections.md)** | Review the preserved descriptions of every workload collection. |
 | 🍎 **[macOS prerequisites](docs/public/macos-prerequisites.md)** | Device types and OS versions supported |
 | 🚀 **[General prerequisites](docs/public/general-prerequisites.md)** | Review roles, licensing,  prepare Intune, Defender and Apple Push certificate. |
-| ☁️ **[Defender for Cloud Apps](docs/public/defender-cloud-apps.md)** | Review the exact Business Premium Custom Indicators limitation and E5 workflow. |
-| 🧩 **[Dependencies and special handling](docs/public/dependencies-and-errors.md)** | Review onboarding, offboarding, Conditional Access, and tenant-specific dependencies. |
+| ☁️ **[Defender for Cloud Apps/Defender for Business Custom Indicators and Web Content Filtering](docs/public/defender-cloud-apps.md)** | Review which settings needs to be turned on and all limitations. |
+| 🧩 **[](docs/public/dependencies-and-errors.md)** | Review MDE/MDB onboarding, offboarding, Defender for Business limitations, Conditional Access requirements. |
 | 📖 **[Policy naming](docs/public/policy-naming.md)** | Understand licence tags and naming components. |
 | 📂 **[File structure](docs/public/file-structure.md)** | Compare the two cumulative packages and workload folders. |
 | 📥 **[How to import](docs/public/how-to-import.md)** | Follow the original illustrated import and post-import guidance. |
