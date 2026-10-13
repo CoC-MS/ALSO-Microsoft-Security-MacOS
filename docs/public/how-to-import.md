@@ -40,32 +40,3 @@
 10. Check "Add Object name to path" and Press Import
 
    <img width="2256" height="861" alt="image" src="https://github.com/user-attachments/assets/ec182c21-9982-4f57-ae03-07022f66fbff" />
-
-## After importing ALSO_MACOS_MDE_AUTO_ONBOARDING
-
-1. - Download your macOS onboarding package from the Defender portal. Follow the instructions in the policy description.
-   - Replace the `.xml` file inside the policy **ALSO – LI – BP – Basic – v1.0– MacOS – Device Configuration - MDE Auto Onboarding - D** with the downloaded one.
-
-<img width="1532" height="950" alt="image" src="https://github.com/user-attachments/assets/3826eb7f-522a-4eb3-a212-afc183060ecb" />
-
-<img width="1109" height="1233" alt="image" src="https://github.com/user-attachments/assets/8d35575d-4d76-4bbb-a54f-2810d7e1b177" />
-
-2. -Assign policies in Devices -> MacOS -> Configuration
-   - Assign all policies to your security **Device Group for MacOS devices** or **All Devices**
-
-<img width="1118" height="1177" alt="image" src="https://github.com/user-attachments/assets/12a4476a-f66d-4d32-a000-3780d310494a" />
-
-<img width="1152" height="292" alt="image" src="https://github.com/user-attachments/assets/6378831d-c626-4eb5-9ecd-8cd163cdf763" />
-
-3.  Set Defender MacOS app as required in Apps-> MacOs
-    - Microsoft Defender for Endpoint (macOS app) must be assigned as **Required** to the same **Device Group** / **All Devices**.
-
-<img width="1593" height="866" alt="image" src="https://github.com/user-attachments/assets/bd921b3a-ffa3-46d2-b164-e6732d553ac0" />
-
-4. Test onboarding by enrolling your test device(s) to Intune
-    - On a macOS device, go to [aka.ms/enrollmymac](https://aka.ms/enrollmymac)
-    - The Mac should be automatically enrolled into Defender for Endpoint **after device enrollment** without any manual steps.
-
-## After importing all other packages
-
-1. As with Step 2 above, review the configuration to ensure it meets your requirements, then assign the policies to the appropriate device group(s) or to All Devices.
