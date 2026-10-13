@@ -27,16 +27,6 @@ The single `ALSO_MACOS_MDCA_READY` AV Configuration export is the starter policy
 
 Security Administrator
 
-**Device types supported**
-   - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
-
-**Supported MacOS versions**
-
-Per September 2026:
-
-27 (Golden Gate), 26 (Tahoe), 15 (Sequoia)
-
-Reference: Microsoft Learn
 
 ## For Defender for Cloud Apps licensed tenants with Defender for Endpoint P2 (E5 package)
 
