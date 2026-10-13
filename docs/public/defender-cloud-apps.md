@@ -18,7 +18,7 @@ This folder contains:
 
 The single `ALSO_MACOS_MDCA_READY` AV Configuration export is the starter policy included in both packages. Its Business Premium compatibility is limited to the Custom Indicators workflow described below. All other Defender for Cloud Apps policies cannot be used with Business Premium and therefore belong only in `ALSO_MACOS_E5`. No additional Defender for Cloud Apps policies are present in the current source artifacts.
 
-## Before importing ALSO_MACOS_MDCA_READY with Business Premium or Defender Suite, Purview Suite or Microsoft 365 E5
+## Before importing ALSO_MACOS_MDCA_READY 
 
 > [!IMPORTANT]
 > **PLEASE ENSURE THAT YOU HAVE COMPLETED THESE STEPS, BEFORE YOU START USING THIS POLICY**:
@@ -38,8 +38,11 @@ Per September 2026:
 
 Reference: Microsoft Learn
 
+## For Defender for Cloud Apps licensed tenants with Defender for Endpoint P2 (E5 package)
 
 1. Navigate to security.microsoft.com -> Settings -> Cloud Apps
+
+Direct link: https://security.microsoft.com/cloudapps/settings?tabid=about&tid 
 
 <img width="1513" height="1165" alt="image" src="https://github.com/user-attachments/assets/fc9c923d-144c-42c1-a900-5b193c56908e" />
 
@@ -54,3 +57,21 @@ Reference: Microsoft Learn
 4. You can now block and monitor apps for Cloud Apps -> Cloud Apps catalog section after your policy have been pushed out to your Mac devices.
 
 PS: Keep in mind that it can take up to 24 hours before it's fully active. 
+
+## For Defender for Business licensed tenants (BP package)
+
+
+1. Navigate to security.microsoft.com -> Settings -> Endpoints
+
+Direct link: https://security.microsoft.com/securitysettings/endpoints/integration?
+
+2. Check that Custom Network Indicators and Web Content filtering are toggled ON
+
+<img width="1922" height="1247" alt="image" src="https://github.com/user-attachments/assets/b544ad55-118f-44ec-b672-82ec154c4847" />
+
+
+
+
+
+
+
