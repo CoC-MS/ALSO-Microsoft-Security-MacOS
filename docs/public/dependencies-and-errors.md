@@ -29,9 +29,24 @@ The `ALSO_MAC_CA_POLICIES` workload contains three Conditional Access policy tem
 1. Sign in to security.microsoft.com with Security Administrator role
 2. Navigate to Settings-> Endpoint -> Offboarding
 3. Choose MacOS -> MDM
-4. Download offboarding xml file and upload it to your offboarding policy in Intune
+4. Download offboarding xml file and upload it to your offboarding policy in Intune (Intune Administrator role required)
 5. Assign to device or device group
+
+Direct access link: https://security.microsoft.com/securitysettings/endpoints/offboarding 
 
 <img width="2306" height="1303" alt="image" src="https://github.com/user-attachments/assets/5151ba3e-f0a3-42d4-ad5b-a595bcc5a6f4" />
 
 The offboarding XML is tenant-generated and is not a separate source artifact in this repository.
+
+
+## Before using ALSO_MACOS_MDE_AUTO_ONBOARDING
+
+1. Sign in to security.microsoft.com with Security Administrator role
+2. Navigate to Settings-> Endpoint -> Onboarding
+3. Choose MacOS -> MDM
+4. Download onboarding xml file and upload it to your onboarding policy in Intune (Intune Administrator role required)
+5. Assign to device or device group 
+
+Direct access link: https://security.microsoft.com/securitysettings/endpoints/onboarding 
+
+<img width="1883" height="1247" alt="image" src="https://github.com/user-attachments/assets/574837ed-c9ec-41b7-bae7-26025698cee2" />
