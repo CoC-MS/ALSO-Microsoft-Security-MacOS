@@ -1,4 +1,4 @@
-*Device types supported**
+**Device types supported**
    - Works with both **personally-owned devices (work profile)** and **corporate-owned devices**
 
 **Supported MacOS versions**
