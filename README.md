@@ -10,10 +10,8 @@
 <a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. ✅ Review [General prerequisites](docs/public/general-prerequisites.md), [macOS prerequisites](docs/public/macos-prerequisites.md), and the [licensing guide](#macos-licensing-guide).
-2. 📂 [Download the repository ZIP](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/archive/refs/heads/main.zip) and follow the extraction guidance in [How to import](docs/public/how-to-import.md).
-3. 📥 Follow [How to import](docs/public/how-to-import.md) to import one selected package without assignments. Review tenant-specific settings and complete the documented onboarding prerequisites.
-4. 🚀 Assign reviewed policies to a pilot group, check policy deployment reports and user impact, then expand in stages.
+1. ✅ Review [General prerequisites](docs/public/general-prerequisites.md), [macOS prerequisites](docs/public/macos-prerequisites.md), [Dependencies and special handling](docs/public/dependencies-and-errors.md), and [Security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/security). Use the [macOS Licensing Guide](#macos-licensing-guide) to choose exactly one package: [`ALSO_MACOS_BP`](ALSO_MACOS_BP) or [`ALSO_MACOS_E5`](ALSO_MACOS_E5). Do not combine packages.
+2. 📥 [Download the repository ZIP](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/archive/refs/heads/main.zip), then follow [How to import](docs/public/how-to-import.md) for extraction and import guidance. Import the selected package without assignments, review tenant-specific settings, and complete the documented onboarding prerequisites.
 
 For controlled rollouts, we recommend using Microsoft's [deployment plans](https://learn.microsoft.com/en-us/intune/device-management/deployments/overview). This Intune feature is currently in public preview.
 
