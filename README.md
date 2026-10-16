@@ -10,7 +10,7 @@
 <a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. Review the [general prerequisites](docs/public/general-prerequisites.md), [macOS prerequisites](docs/public/macos-prerequisites.md), [dependencies and special handling](docs/public/dependencies-and-errors.md), [Defender for Cloud Apps/Defender for Business Custom Indicators and Web Content Filtering](docs/public/defender-cloud-apps.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file). Choose exactly one package using the [macOS Licensing Guide](#macos-licensing-guide): [`ALSO_MACOS_BP`](ALSO_MACOS_BP) or [`ALSO_MACOS_E5`](ALSO_MACOS_E5).
+1. Review the [general prerequisites](docs/public/general-prerequisites.md), [macOS prerequisites](docs/public/macos-prerequisites.md), [dependencies and special handling](docs/public/dependencies-and-errors.md), [Defender for Cloud Apps/Defender for Business Custom Indicators and Web Content Filtering](docs/public/defender-cloud-apps.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-MacOS/tree/main?tab=security-ov-file). Choose and download exactly one package using the [macOS Licensing Guide](#macos-licensing-guide) bwlow : [`ALSO_MACOS_BP`](ALSO_MACOS_BP) or [`ALSO_MACOS_E5`](ALSO_MACOS_E5).
 2. Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
 
 For controlled rollouts, we recommend using Microsoft's [deployment plans](https://learn.microsoft.com/en-us/intune/device-management/deployments/overview). This Intune feature is currently in public preview.
