@@ -2,7 +2,7 @@
 
 [Documentation index](README.md)
 
-## Defender for Cloud Apps starter dependency
+## Defender for Cloud Apps/Defender for Business Custom Indicators and Content Filtering starter dependency
 
 > [!IMPORTANT]
 > ALSO_MACOS_MDE_AUTO_ONBOARDING must be imported and assigned to the target device group before deploying any other policies in this package.
