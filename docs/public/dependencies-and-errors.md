@@ -2,11 +2,6 @@
 
 [Documentation index](README.md)
 
-## Microsoft Defender for Endpoint onboarding dependency
-
-> [!IMPORTANT]
-> All of these policy templates and the application are required to enable seamless automatic onboarding of macOS devices to Microsoft Defender for Endpoint when they are enrolled in Intune.
-
 ## Defender for Cloud Apps starter dependency
 
 > [!IMPORTANT]
