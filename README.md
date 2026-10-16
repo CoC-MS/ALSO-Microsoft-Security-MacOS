@@ -118,7 +118,7 @@ Each package is standalone and retains the original workload folders and exact e
 | 🚀 [**General prerequisites**](docs/public/general-prerequisites.md) | Check licensing, permissions, Defender, Intune, Conditional Access, and Apple Push certificate preparation. |
 | 🍎 [**macOS prerequisites**](docs/public/macos-prerequisites.md) | Check supported device types and macOS versions. |
 | 📦 [**macOS packages**](docs/public/file-structure.md) | Compare package contents and find each workload. |
-| ☁️ [**Defender for Cloud Apps**](docs/public/defender-cloud-apps.md) | Review starter-policy requirements and the Business Premium limitation. |
+| ☁️ [**Defender for Cloud Apps/Defender for Business Custom Indicators and Web Content Filtering**](docs/public/defender-cloud-apps.md) | Review starter-policy requirements and the Business Premium limitation. |
 | 🧩 [**Dependencies and special handling**](docs/public/dependencies-and-errors.md) | Review Defender onboarding and offboarding requirements and limitations. |
 | 📖 [**Policy naming**](docs/public/policy-naming.md) | Review the naming format and license tags. |
 | 🛡️ [**Security information**](SECURITY) | Read the repository security and usage information. |
