@@ -1,5 +1,7 @@
 # 📖 Policy and configuration descriptions
 
+**Disclaimer:** Licensing prerequisites and feature availability listed on this page may be incorrect, incomplete, or outdated. We strongly recommend verifying all licensing information against the latest official Microsoft licensing documentation before making any purchasing or deployment decisions.
+
 [Documentation index](README.md)
 
 ## What's included in ALSO_MACOS_MDE_AUTO_ONBOARDING
