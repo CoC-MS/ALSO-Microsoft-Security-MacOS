@@ -65,7 +65,7 @@ The **BP folder** is designed for organizations using Microsoft 365 Business Pre
 |----------|----------|
 | Microsoft 365 Business Premium | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
 | Microsoft 365 E3 | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
-| Microsoft 365 F3 | ⚠️ Supported with limitations (without full Defender for Cloud Apps experience) |
+| Microsoft 365 F3 | ⚠️ Intune settings only. Defender settings are not supported. |
 | Microsoft 365 F1 | ⚠️ Intune settings only. Defender settings are not supported. |
 
 For Business Premium, the Defender starter policy uses **Custom Indicators** in Microsoft Defender rather than the Cloud App Catalog. See [Defender for Cloud Apps](docs/public/defender-cloud-apps.md) for the required service settings and limitations.
